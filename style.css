@@ -1,0 +1,187 @@
+#idHome
+{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Web\ image.jpg);
+    background-position: center;
+    background-size: cover;      
+}
+.home
+{
+    text-align: center;
+    padding-top: 25%;
+    color: white;
+}
+.navbar
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-brand
+{
+    color: #f0860c!important;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #f0860c!important;
+    margin: 0 17px 0;
+
+}
+.clr
+{
+    color: #f0860c;
+}
+#aboutUs
+{
+    background-color: #000000f2;
+    color:white;
+}
+#id-vision
+{
+    background-color: #000000f2;
+    color: white;
+}
+#id-mission
+{
+    background-color: #000000f2;
+    color: white;
+}
+#aboutUs p
+{
+    font-size: 20px;
+    padding-top: 2%;
+}
+.padding
+{
+    padding-top: 5%;
+}
+.Riya
+{
+    display: flex;
+}
+.Riya p
+{
+    margin-right: 70px;
+    font-size: 20px;
+    padding-top: 60px;
+    text-align: center;
+}
+.Divya
+{
+    display: flex;
+}
+.Divya p
+{
+    font-size: 20px;
+    padding-top: 60px;
+    text-align: center;
+    margin-left: 20px;
+}
+.Divya img
+{
+    margin-left: 125px;
+}
+.mrgn
+{
+    margin-left: 70%;
+}
+.Tara
+{
+    display: flex;   
+}
+.Tara p
+{
+    font-size: 20px;
+    padding-top: 60px;
+    text-align: center;
+    margin-left: 20px;
+}
+.Mission
+{
+    font-size: 20px;
+}
+.Mission p
+{
+    padding-top: 15px;
+}
+.connect a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer-section
+{
+    display:inline;
+    color: white;
+}
+.connect
+{
+    margin-left: 40%;
+    font-weight: bold;
+}
+a:hover
+{
+    color: #f0860c!important;
+    cursor: pointer;
+} 
+
+.phone
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.email
+{
+    margin-left: 60%;
+}
+.email small
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.email p
+{
+    font-size: 13px;
+}
+.footer-clr
+{
+    background-color: #000000f2;
+}
+
+@media (max-width:768px){
+    .email
+    {
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+    .connect
+    {
+        margin-left: 0%;
+    }
+    .Riya p
+    {
+    margin-right: 20px;
+    font-size: 20px;
+    padding-top: 60px;
+    text-align: center;
+    }
+    #idHome
+    {
+    height: 50vh;
+    width: 80vh;
+    }
+    #aboutUs
+    {
+        width: 80vh;
+    }
+    #id-vision
+    {
+        width: 80vh;
+    }
+    #id-mission
+    {
+        width: 80vh;
+    }
+    .footer-clr
+    {
+        width: 80vh;
+    }
+}
